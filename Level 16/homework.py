@@ -14,7 +14,7 @@
 
 password = "goa123"
 attempts = 3
-user_password = input("Please enter your name (3 attempts): ")
+user_password = input("Please enter your password (3 attempts): ")
 while user_password != password and attempts != 1:
     print("Password is incorrect! Try again!")
     attempts -= 1
