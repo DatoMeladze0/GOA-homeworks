@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body style="text-align: center;">
+    <form>
+        <h1>Registration</h1>
+        <label for="Full name">Full name</label><br>
+        <input type="text" id="Full name" required>
+        <br><br>
+        <label for="Email">Email</label><br>
+        <input type="email" id="Email" required>
+        <br><br>
+        <label for="Password">Password</label><br>
+        <input type="password" id="Password" required>
+        <br><br>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="Gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label for="countries">Pick your country</label>
+        <select id="countries">
+            <option>Spain</option>
+            <option>Unites States</option>
+            <option>Georgia</option>
+            <option>Russia</option>
+            <option>United Kingdom</option>
+        </select>
+        <br><br>
+        <label for="terms">Do you agree with our terms of service</label>
+        <input id="terms" type="checkbox" required>
+        <br><br>
+        <button>Register</button>
+    </form>
+</body>
+</html>
