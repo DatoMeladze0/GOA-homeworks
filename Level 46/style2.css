@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ddd;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    margin-top: 30px;
+    color: #333;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #28a745;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #2aa3b3;
+    color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
